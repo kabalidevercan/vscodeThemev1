@@ -1,0 +1,29 @@
+{
+  "name": "kabalidevercanthemev1",
+  "displayName": "kabaliercantheme",
+  "description": "darkGreen",
+  "publisher": "ercankabali",
+  "repository": {
+    "type": "git",
+    "directory": "https://github.com/kabalidevercan/vscodeThemev1"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "darkGreenkabaliercan",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darkGreenkabaliercan-color-theme.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "vsce": "^2.15.0"
+  }
+}
